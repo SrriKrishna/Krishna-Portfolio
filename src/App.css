@@ -1,0 +1,5 @@
+/* App specific styles if needed, mostly handled in index.css */
+.app-container {
+  min-height: 100vh;
+  position: relative;
+}
