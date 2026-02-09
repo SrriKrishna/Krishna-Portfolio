@@ -60,6 +60,7 @@ const Experience = () => {
                             </div>
 
                             <ul className="list-disc list-inside space-y-2 text-gray-300 mb-6">
+                                <h6 className="text-white font-medium mb-2 border-b border-gray-800 pb-1">Key Contributions</h6>
                                 <li>Developed responsive and reusable UI components using <span className="text-blue-400">ReactJS (Vite)</span>, JavaScript, JSX, and Bootstrap.</li>
                                 <li>Integrated REST APIs and handled JSON data for seamless frontend–backend communication.</li>
                                 <li>Collaborated with backend developers to ensure smooth data flow and feature implementation.</li>
