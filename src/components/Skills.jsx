@@ -74,7 +74,7 @@ const Skills = () => {
                 >
                     Technical Skills
                 </motion.h2>
-                <p className="text-center text-gray-400 mb-12">Technologies and tools I use to bring ideas to life</p>
+                <p className="text-center text-red-400 mb-12">Technologies and tools I use to bring ideas to life</p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     {skillsData.map((category, index) => (

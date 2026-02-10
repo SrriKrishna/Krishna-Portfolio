@@ -6,7 +6,7 @@ const Hero = () => {
     const [text, setText] = useState('');
     const [isDeleting, setIsDeleting] = useState(false);
     const [loopNum, setLoopNum] = useState(0);
-    const [typingSpeed, setTypingSpeed] = useState(150);
+    const [typingSpeed, setTypingSpeed] = useState(60);
 
     const titles = [
         { text: "Java Developer", color: "text-orange-500" },
@@ -25,7 +25,7 @@ const Hero = () => {
                 : fullText.substring(0, text.length + 1)
             );
 
-            setTypingSpeed(isDeleting ? 30 : 150);
+            setTypingSpeed(isDeleting ? 30 : 80);
 
             if (!isDeleting && text === fullText) {
                 setTimeout(() => setIsDeleting(true), 1500); // Pause at end
