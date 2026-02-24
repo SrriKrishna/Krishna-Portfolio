@@ -78,7 +78,7 @@ const Hero = () => {
                         </a>
 
                         {/* Download Resume - Solid Gradient */}
-                        <a href="\public\Krishna_Resume (5).pdf" download className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold hover:shadow-[0_0_20px_rgba(79,70,229,0.5)] transition-all flex items-center gap-2 transform hover:-translate-y-1">
+                        <a href="Krishna_Resume (5).pdf" download className="px-8 py-3 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold hover:shadow-[0_0_20px_rgba(79,70,229,0.5)] transition-all flex items-center gap-2 transform hover:-translate-y-1">
                             <Download size={18} />
                             Download Resume
                         </a>
